@@ -1,0 +1,192 @@
+* {
+    font-family: roboto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.first, footer {
+    background-color: #1f2937;
+}
+
+.section {
+    padding: 0% 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.second-part {
+    display: flex;
+    padding: 5% 0%;
+}
+
+.title-box {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    padding-right: 5%;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.link {
+    display: flex;
+    gap: 15px;
+}
+
+.image-box {
+    min-width: 300px;
+    flex: 1;
+}
+
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.title-text {
+    font-size: 18px;
+    color: #efe7eb;
+}
+
+button {
+    all: unset;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.fried-chicken {
+    width: 100%;
+}
+
+.second.section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.second .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.second .sub-container {
+    display: flex;
+}
+
+.second .child-one {
+    border: 3px solid #3882f6;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.second .child-two {
+    text-align: center;
+}
+
+.second .sub-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+
+.third.section {
+    background-color: #e5e7eb;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.third .child-one {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.third .child-two {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourth.section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.fourth .sub-section {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 5% 20%;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth .child-one {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.fourth button {
+    border: 2px solid white;
+    color: white;
+    flex: 1;
+    display: flex;
+
+}
+
+.fourth .sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 3;
+}
+
+footer {
+    color: white;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
